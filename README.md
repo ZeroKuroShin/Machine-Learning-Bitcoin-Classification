@@ -14,7 +14,7 @@ Bitcoin dipilih sebagai objek studi karena memiliki volatilitas tinggi, data per
 Bitcoin BTC-USD stock dataset, adalah dataset yg saya gunakan dan saya download dari Kaggle, tapi file nya saya rename agar tidak kepanjangan jadinya saya rename menjadi BTC_Price.csv 
 
     #Jumlah Data:
->1000 atau tepatnya : 2836(Baris) dan 7(Kolom)
+lebih dari 1000 atau tepatnya : 2836(Baris) dan 7(Kolom)
 
     #Total Variabel / Kolom:
 Variabel Fitur (Input / $X$): Open, High, Low, Close, Volume, dan MA_20 (Moving Average 20 hari sebagai tambahan feature engineering).
