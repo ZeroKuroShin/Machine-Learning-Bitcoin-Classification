@@ -1,5 +1,5 @@
 #EVALUASI MODEL MSE, MAE. DAN R2 PEMBUKTIAN NYA#
-Mohon izin menjelaskan, Pak/Bu. Karena pendekatan yang saya gunakan pada dataset BTC_Price.csv ini adalah Klasifikasi (memprediksi kategori biner: 1 untuk Naik, 0 untuk Turun), maka metrik evaluasi yang kami gunakan bukanlah MAE, MSE, maupun $R^2$. Ketiga metrik tersebut merupakan standar evaluasi untuk model Regresi.
+Mohon izin menjelaskan, Pak. Karena pendekatan yang saya gunakan pada dataset BTC_Price.csv ini adalah Klasifikasi (memprediksi kategori biner: 1 untuk Naik, 0 untuk Turun), maka metrik evaluasi yang kami gunakan bukanlah MAE, MSE, maupun $R^2$. Ketiga metrik tersebut merupakan standar evaluasi untuk model Regresi.
 Sebagai gantinya, untuk mengukur performa model klasifikasi ini, kami menggunakan metrik Accuracy (Akurasi), Precision, Recall, dan Classification Report, di mana nilainya berada di dalam rentang 0 hingga 1 (atau 0% sampai 100%), yang menunjukkan seberapa tepat model dalam menebak arah tren harga dengan benar.
 
 #Namun jika bapak tetap penasaran saya buatkan juga dengan mengganti target saya menjadi regresi dan membuktikannya#
