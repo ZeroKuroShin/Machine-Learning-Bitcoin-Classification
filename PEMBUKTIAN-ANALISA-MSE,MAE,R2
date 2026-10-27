@@ -1,0 +1,11 @@
+
+---Hasil Analisis Pembuktian (Apakah Dekat atau Jauh dari Angka 1?)---
+1. MAE (Mean Absolute Error) & MSE (Mean Squared Error):
+  Apakah dekat atau jauh dari 1? SANGAT JAUH DARI ANGKA 1 (Bahkan bisa bernilai ribuan hingga jutaan!).
+  Kenapa? Karena harga Bitcoin bernilai puluhan ribu dolar (misalnya $60,000+). MAE menghitung rata-rata selisih harga asli dengan prediksi dalam satuan dolar aslinya. Jika rata-rata meleset $1,000, maka nilai MAE Anda adalah 1000.0 (jauh sekali dari 1). MAE dan MSE yang bagus bukan berarti "mendekati 1", melainkan mendekati angka 0 (artinya selisih error harganya sangat kecil).
+
+2. R2 (R-squared / Koefisien Determinasi):
+  Apakah dekat atau jauh dari 1? Mendekati angka 1 (biasanya berada di kisaran 0.85 hingga 0.99 untuk data saham/kripto berurutan waktu).
+  Kenapa? Karena skala nilai R2
+  memang berada di antara 0 hingga 1 (atau negatif jika sangat buruk). Nilai R2
+  mendekati 1 pada data harga saham/kripto seringkali bersifat menipu (hanya karena harga hari ini mirip sekali dengan harga kemarin/efek lagged), yang justru menjadi alasan kuat kenapa kita lebih disarankan memakai Klasifikasi (Naik/Turun) agar model benar-benar memprediksi arah tren, bukan sekadar menjiplak harga hari sebelumnya.
